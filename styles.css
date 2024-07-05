@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #4CAF50; /* Vert */
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #4CAF50; /* Vert */
+    border-radius: 5px;
+}
+
+input, textarea, select {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+button {
+    background: #4CAF50; /* Vert */
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049; /* Vert foncé */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #4CAF50; /* Vert */
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h3 {
+    color: #4CAF50; /* Vert */
+}
